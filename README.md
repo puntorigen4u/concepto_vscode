@@ -1,5 +1,5 @@
 <p>
-  <h1 align="center">vscode-mindmap</h1>
+  <h1 align="center">concepto_vscode</h1>
 </p>
 
 ![mindmap](https://img.souche.com/f2e/f12837b4057a8f1c5dd5033560a48f20.gif)
@@ -7,14 +7,14 @@
 ## Features
 
 -  File Edit(eg: .km), Save, Export
--  Transpile .xmind to .km
+-  Transpile .xmind/.dsl to .km
 -  Support export to image(.png)
 
 ## Installation
 
-  Install through VS Code extensions. Search for "vscode-mindmap"
+  Install through VS Code extensions. Search for "concepto_vscode"
 
-  Visual Studio Code Market Place: vscode-mindmap
+  Visual Studio Code Market Place: concepto_vscode
 
 ## Usage
 
@@ -25,7 +25,7 @@
 | Key                              | Command                        |
 | -------------------------------- | ------------------------------ |
 | cmd + m(mac) / ctrl + m(windows) | open a webview of textDocument |
-| cmd + s(mac) / ctrl + s(windows) | save mindmap file              |
+| cmd + s(mac) / ctrl + s(windows) | save concepto file              |
 
 ## FAQ
   - **File parsed incorrectly, the current webview only show initial mindmap**
