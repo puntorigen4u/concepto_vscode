@@ -1,13 +1,13 @@
 {
-  "name": "vscode-mindmap",
-  "displayName": "vscode-mindmap",
+  "name": "concepto_vscode",
+  "displayName": "concepto_vscode",
   "icon": "resources/icon.png",
-  "description": "mindmap for vscode",
-  "version": "0.0.5",
-  "publisher": "Souche",
+  "description": "dsl viewer for vscode",
+  "version": "0.0.1",
+  "publisher": "Punto Origen SpA",
   "repository": {
     "type": "git",
-    "url": "https://github.com/souche/vscode-mindmap.git"
+    "url": "https://github.com/puntorigen4u/concepto_vscode.git"
   },
   "engines": {
     "vscode": "^1.29.0"
@@ -16,6 +16,7 @@
     "Other"
   ],
   "activationEvents": [
+    "onLanguage:dsl",
     "onLanguage:xmind",
     "onLanguage:km",
     "onCommand:extension.mindmap"
@@ -31,6 +32,16 @@
         "aliases": [
           "KM",
           "km"
+        ]
+      },
+      {
+        "id": "dsl",
+        "extensions": [
+          ".dsl"
+        ],
+        "aliases": [
+          "DSL",
+          "dsl"
         ]
       },
       {
